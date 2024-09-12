@@ -1,0 +1,6 @@
+help = input ("Enter your query")
+reply = input ("Your query will be answered quickly")
+ 
+print (" Hi " + name + " " + help + " " + reply + " thanks for your query ")
+
+
