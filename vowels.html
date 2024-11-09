@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body></body>
+  <script>
+    word =
+      "Learning programming is a crucial skill in today's digital age, offering numerous benefits both personally and professionally. It encourages problem-solving, logical thinking, and creativity, allowing individuals to break down complex tasks into manageable steps. With programming, you can build websites, create applications, automate tasks, and analyze data, providing endless possibilities across various industries. As technology continues to evolve, programming languages like Python, JavaScript, and HTML have become essential tools for innovation. Whether you're looking to enhance your career, start a new project, or simply understand how the digital world works, learning programming opens doors to countless opportunities in our increasingly tech-driven society.";
+
+    findTheVowel = word.split('');
+
+    countOfVow = 0;
+
+    for (i = 1; i < findTheVowel.length; i = i + 1) {
+      if (
+        findTheVowel[i] == 'a' ||
+        findTheVowel[i] == 'e' ||
+        findTheVowel[i] == 'i' ||
+        findTheVowel[i] == 'o' ||
+        findTheVowel[i] == 'u'
+      )
+        countOfVow = countOfVow + 1;
+    }
+
+    console.log(countOfVow);
+  </script>
+</html>
